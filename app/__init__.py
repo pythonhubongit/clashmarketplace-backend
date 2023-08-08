@@ -91,7 +91,7 @@ def user_profile(id):
     # Retrieve the first matching document
     for doc in user_docs:
         res = doc.to_dict()
-        if uid == 'HMPFyv15ZISU0B16nMCBrTKbv0p2':
+        if uid == 'HMPFyv15ZISU0B16nMCBrTKbv0p2' or uid == '4pWkMBCKlFPJU8BVWiiZeEfTTtZ2':
             res['type'] = "admin"
         else:
             res['type'] = 'user'
